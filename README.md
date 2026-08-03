@@ -109,7 +109,7 @@ The portfolio combines minimal design, premium typography, subtle motion, and mo
 > Replace this image with your portfolio screenshot.
 
 ```md
-![Portfolio Preview](assets/preview.png)
+![Portfolio Preview](./assets/preview.png)
 ```
 
 ---
