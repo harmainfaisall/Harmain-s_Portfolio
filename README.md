@@ -1,103 +1,157 @@
-# Harmain Faisal — Developer Portfolio
+<div align="center">
 
-A modern, responsive, and performance-focused personal portfolio designed to showcase my skills, projects, certifications, and development journey. Built with clean code, smooth animations, and a premium dark-themed interface to deliver an engaging user experience.
+# ⚡ Harmain Faisal
 
-## Overview
+### Frontend Developer • Crafting Modern Digital Experiences
 
-This portfolio highlights my work as a Frontend Web Developer, featuring carefully crafted UI components, responsive layouts, interactive animations, and a collection of real-world projects. It reflects my passion for building modern web experiences while continuously learning full-stack technologies.
+<p>
+A premium developer portfolio built with modern web technologies, elegant animations,
+glassmorphism aesthetics, and performance-first development.
+</p>
 
-## Features
+<p>
 
-- Modern dark-themed UI
-- Responsive design for all screen sizes
-- Smooth scroll and reveal animations
-- Interactive cursor glow effects
-- Skills section with animated progress indicators
-- Featured projects with live demos and source code
-- Dedicated projects page with search and category filters
-- Professional education and certification timeline
-- Downloadable resume
-- Contact section for collaboration opportunities
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/Responsive-100%25-success?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Live-00C853?style=for-the-badge"/>
 
-## Tech Stack
+</p>
 
-**Frontend**
+<p>
+
+<a href="YOUR_PORTFOLIO_LINK">🌐 Live Website</a> •
+<a href="https://github.com/harmainfaisall">GitHub</a> •
+<a href="YOUR_LINKEDIN">LinkedIn</a>
+
+</p>
+
+</div>
+
+---
+
+# ✨ About
+
+This portfolio represents my journey as a **Frontend Developer**, showcasing modern UI design, responsive web development, and interactive user experiences.
+
+Every section has been carefully designed to balance aesthetics, usability, and performance while reflecting my passion for building high-quality digital products.
+
+---
+
+# 🚀 Highlights
+
+✨ Premium Dark Interface
+
+🎨 Glassmorphism Components
+
+⚡ Smooth Scroll Animations
+
+🖱️ Interactive Cursor Glow
+
+📱 Fully Responsive Layout
+
+💻 Interactive Developer Terminal
+
+🔍 Searchable Project Gallery
+
+📊 Animated Skills Section
+
+📄 Downloadable Resume
+
+📬 Contact Section
+
+---
+
+# 🛠 Tech Stack
+
+### Languages
+
 - HTML5
 - CSS3
 - JavaScript (ES6)
 
-**Tools & Technologies**
+### Tools
+
 - Git
 - GitHub
 - VS Code
+- Figma
 - Font Awesome
-- Google Fonts
-
-## Project Structure
-
-```text
-Portfolio/
-├── assets/
-├── index.html
-├── projects.html
-├── style.css
-├── script.js
-└── README.md
-```
-
-## Getting Started
-
-Clone the repository:
-
-```bash
-git clone https://github.com/harmainfaisall/portfolio.git
-```
-
-Navigate to the project folder:
-
-```bash
-cd portfolio
-```
-
-Open `index.html` in your browser or run it using Live Server.
-
-## Live Demo
-
-**Website:** https://your-portfolio-link.netlify.app
-
-## Highlights
-
-- Premium UI inspired by modern design principles
-- Optimized responsive layouts
-- Interactive JavaScript functionality
-- Clean and maintainable code structure
-- Fast loading experience
-- User-friendly navigation
-
-## Future Improvements
-
-- React.js version
-- Backend-powered contact form
-- Dark/Light mode toggle
-- Blog section
-- Project CMS integration
-- Performance optimizations
-
-## About Me
-
-I'm **Harmain Faisal**, a Frontend Web Developer passionate about creating responsive, accessible, and visually engaging web applications. I enjoy transforming ideas into modern digital experiences and continuously expanding my expertise with technologies like React.js, Node.js, and Express.js.
-
-## Connect With Me
-
-**GitHub**  
-https://github.com/harmainfaisall
-
-**LinkedIn**  
-https://www.linkedin.com/in/your-linkedin-profile
-
-**Email**  
-harmain.faisall19@gmail.com
 
 ---
 
-If you found this project interesting, consider giving it a ⭐ on GitHub.
+# 📂 Featured Projects
+
+| Project | Description |
+|---------|-------------|
+| 🍽 Delicious Bites | Responsive food ordering website with cart functionality |
+| ☕ Coffiora | Luxury coffee brand landing page |
+| ⏱ FocusFlow | Pomodoro productivity timer |
+| 🤖 WordFlow AI | Modern AI landing page |
+| 🧠 Quiz App | Interactive JavaScript quiz |
+| ✈ TravelBae | Travel booking interface |
+| 🎨 Figma Clone | Pixel-perfect Figma UI recreation |
+| ➕ More Projects | Calculator, Birthday Website, Portfolio & more |
+
+---
+
+# 🎯 Design Philosophy
+
+> Simplicity is powerful.
+
+The portfolio combines minimal design, premium typography, subtle motion, and modern layouts to create an immersive browsing experience while maintaining accessibility and performance.
+
+---
+
+# 📸 Preview
+
+> Replace this image with your portfolio screenshot.
+
+```md
+![Portfolio Preview](assets/preview.png)
+```
+
+---
+
+# ⚙ Installation
+
+```bash
+git clone https://github.com/harmainfaisall/portfolio.git
+
+cd portfolio
+
+start index.html
+```
+
+---
+
+# 📈 Future Roadmap
+
+- React Version
+- Node.js Backend
+- Blog System
+- Admin Dashboard
+- Theme Switcher
+- Project CMS
+- Performance Optimization
+
+---
+
+# 👨‍💻 Developer
+
+## Harmain Faisal
+
+Frontend Developer passionate about building premium web experiences with clean code, modern UI, and seamless interactions.
+
+📧 harmain.faisall19@gmail.com
+
+---
+
+<div align="center">
+
+### ⭐ If you like this project, consider giving it a star.
+
+Made with ❤️ by Harmain Faisal
+
+</div>
