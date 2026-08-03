@@ -21,9 +21,9 @@ glassmorphism aesthetics, and performance-first development.
 
 <p>
 
-<a href="YOUR_PORTFOLIO_LINK">🌐 Live Website</a> •
+<a href="https://harmainportfolio.netlify.app/">🌐 Live Website</a> •
 <a href="https://github.com/harmainfaisall">GitHub</a> •
-<a href="YOUR_LINKEDIN">LinkedIn</a>
+<a href="https://www.linkedin.com/in/harmain-faisall/">LinkedIn</a>
 
 </p>
 
@@ -110,18 +110,6 @@ The portfolio combines minimal design, premium typography, subtle motion, and mo
 
 ```md
 ![Portfolio Preview](assets/preview.png)
-```
-
----
-
-# ⚙ Installation
-
-```bash
-git clone https://github.com/harmainfaisall/portfolio.git
-
-cd portfolio
-
-start index.html
 ```
 
 ---
