@@ -104,16 +104,6 @@ The portfolio combines minimal design, premium typography, subtle motion, and mo
 
 ---
 
-# 📸 Preview
-
-> Replace this image with your portfolio screenshot.
-
-```md
-![Portfolio Preview](./assets/preview.png)
-```
-
----
-
 # 📈 Future Roadmap
 
 - React Version
