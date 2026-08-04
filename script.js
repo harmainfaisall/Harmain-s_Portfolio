@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initScrollReveal();
   initTerminal();
   initContactForm();
+  initMobileMenu();
 });
 
 /* 1. Cursor Spotlight Glow */
@@ -709,3 +710,40 @@ function initContactForm() {
     }
   });
 }
+
+/* 11. Mobile Hamburger Navigation Drawer Engine */
+function initMobileMenu() {
+  const hamburgerBtn = document.getElementById('hamburger-btn');
+  const navLinks = document.getElementById('nav-links');
+  const navLinkItems = document.querySelectorAll('.nav-link, .mobile-only-cta .btn-nav');
+
+  if (!hamburgerBtn || !navLinks) return;
+
+  // Toggle mobile drawer open/close
+  hamburgerBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    hamburgerBtn.classList.toggle('active');
+    navLinks.classList.toggle('active');
+    const isExpanded = hamburgerBtn.classList.contains('active');
+    hamburgerBtn.setAttribute('aria-expanded', isExpanded);
+  });
+
+  // Close menu when clicking any link
+  navLinkItems.forEach(item => {
+    item.addEventListener('click', () => {
+      hamburgerBtn.classList.remove('active');
+      navLinks.classList.remove('active');
+      hamburgerBtn.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  // Close menu when clicking outside of navbar
+  document.addEventListener('click', (e) => {
+    if (navLinks.classList.contains('active') && !navLinks.contains(e.target) && !hamburgerBtn.contains(e.target)) {
+      hamburgerBtn.classList.remove('active');
+      navLinks.classList.remove('active');
+      hamburgerBtn.setAttribute('aria-expanded', 'false');
+    }
+  });
+}
+

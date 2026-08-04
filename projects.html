@@ -28,18 +28,29 @@
   <div class="orb orb-2"></div>
 
   <!-- Floating Navigation Bar with Back to Home -->
-  <header class="navbar">
+  <header class="navbar" id="navbar">
     <a href="index.html" class="nav-brand">
       <span class="logo-dot"></span> Harmain<span class="cyan-text">.dev</span>
     </a>
-    <ul class="nav-links">
+    <button class="hamburger-menu" id="hamburger-btn" aria-label="Toggle Navigation Menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
       <li><a href="index.html#about" class="nav-link">About</a></li>
       <li><a href="index.html#skills" class="nav-link">Skills</a></li>
       <li><a href="projects.html" class="nav-link active">All Projects</a></li>
       <li><a href="index.html#education" class="nav-link">Journey</a></li>
       <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+      <li class="mobile-only-cta">
+        <a href="index.html" class="btn-nav">
+          <i class="fa-solid fa-arrow-left"></i>
+          <span>Back to Home</span>
+        </a>
+      </li>
     </ul>
-    <a href="index.html" class="btn-nav">
+    <a href="index.html" class="btn-nav desktop-only-cta">
       <i class="fa-solid fa-arrow-left"></i>
       <span>Back to Home</span>
     </a>
